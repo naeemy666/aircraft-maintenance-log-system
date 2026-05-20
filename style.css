@@ -1,0 +1,57 @@
+.company-name {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+
+    margin: 80px auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px gray;
+
+    text-align: center;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(166, 166, 218);
+}
+
+button:hover {
+    background-color: rgb(188, 188, 230);
+}
+
+button:hover {
+    background-color: rgb(178, 178, 220);
+}
+
+.aircraft-card {
+    background-color: #1684f2;
+    border-left: 5px solid rgb(2, 2, 53);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

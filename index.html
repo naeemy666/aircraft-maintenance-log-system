@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aircraft Maintenance Log</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="company-name">Scandinavian Seaplanes OY</h1>
+    
+
+    <div class="container">
+
+        <h1>Aircraft Maintenance Log System</h1>
+
+        <h2>Add Aircraft</h2>
+
+        <input id="aircraftName" type="text" placeholder="Aircraft Name">
+        <br><br>
+
+        <input id="registration" type="text" placeholder="Registration Number">
+        <br><br>
+
+        <input id="flightHours" type="number" placeholder="Flight Hours">
+        <br><br>
+
+        <button onclick="addAircraft()">Add Aircraft</button>
+
+        <h2>Aircraft List</h2>
+
+        <input id="searchAircraft" type="text" placeholder="Search aircraft or registration" onkeyup="showAircraft()">
+        <br><br>
+
+        <div id="aircraftList"></div>
+
+        <h2>Add Maintenance Log</h2>
+
+        <input id="maintenanceDate" type="date">
+        <br><br>
+
+        <input id="fault" type="text" placeholder="Fault Description">
+        <br><br>
+
+        <input id="action" type="text" placeholder="Action Taken">
+        <br><br>
+
+        <input id="engineer" type="text" placeholder="Engineer Name">
+        <br><br>
+
+        <select id="status">
+            <option>Open</option>
+            <option>Fixed</option>
+        </select>
+        <br><br>
+
+        <button onclick="addMaintenance()">Add Maintenance Log</button>
+
+        <h2>Maintenance Records</h2>
+
+        <div id="maintenanceList"></div>
+
+    </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
